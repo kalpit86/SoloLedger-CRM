@@ -8,7 +8,7 @@ function Sidebar() {
   const navItemClasses = (isActive) => `
     w-full
     flex 
-    items-center 
+    items-center
     gap-4 
     p-2
     rounded-lg

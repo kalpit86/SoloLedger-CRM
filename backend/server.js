@@ -10,7 +10,7 @@ const mongoURI = process.env.MONGO_URI;
 
 connectDB(mongoURI);
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173',"*"];
 
 app.use(cors({
   origin: allowedOrigins, // Allows all origins
